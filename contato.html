@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required> <!--O required torna os campos de texto obrigatórios
+        ou seja, se estiver vazio e o usuário tentar enviar, o navegador informa que é necessário digitar ao nos campos-->
+    <!--Já o text especifica que o tipo de entrada é texto-->
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+    <!--O type email especifica que o tipo de entrada é um endereço de e-mail, e só deixa enviar o foprmulário
+        após inserir um e-mail no formato válido (e-mail@contato.com). -->
+    
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+    
+        <input type="submit" value="Enviar">
+    </form>
+    <nav style="margin-top: 50px;"> <!--adicionando margem ao topo-->
+        <ul>
+            <li><a href="index.html">Sobre mim</a></li>
+            <li><a href="formação.html">Formação</a></li>
+            <li><a href="portifólio.html">Portfólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    
+    <footer>
+        <div>
+            <p>&copy; 2024 - Atividade prática de Fundamentos da Programação WEB</p>
+            <p>Desenvolvido por: <a href="https://github.com/LimeAnna" target="_blank"><strong>Anna Lima</strong></a> </p>
+        </div>
+    </footer>
+</body>
+</html>
